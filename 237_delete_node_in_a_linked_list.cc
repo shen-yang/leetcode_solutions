@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/delete-node-in-a-linked-list/
 // Since node given is not a tail. We could do a trick: copy the contents of
-// the next node, then connect to the next of next, delete the next node.
+// the next node, then connect to the next next node, delete the next node.
 
 /**
  * Definition for singly-linked list.
